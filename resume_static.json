@@ -1,0 +1,47 @@
+{
+  "tagline": "MSCS @ UMass Amherst | Ex - Developer @ Oracle | AU-MIT'23",
+
+  "about": [
+    "I am a Master's in Computer Science student at UMass Amherst. I have professional experience as an Associate Software Developer at Oracle, where I contributed to full-stack development, optimized performance, and contributed to AI solutions to enhance customer experience using Python, JavaScript, and modern web technologies. My core competencies include designing and implementing software solutions, developing and integrating ML models with applications, and optimizing database and application performance.",
+    "My technical expertise spans Python, Java, C++, Flask, TensorFlow, OpenCV, SQLAlchemy, PHP, HTML, JavaScript, OJET, CSS, MySQL, Oracle, Firebase, Docker, Git, and Android development. I am passionate about building reliable, high-impact systems and continuously learning emerging technologies in ML, AI, and backend engineering.",
+    "I am actively looking out for internships, research collaborations, and project opportunities in ML/AI, scalable systems, and full-stack/backend development. Feel free to connect or reach out to discuss potential collaborations."
+  ],
+
+  "certifications": [
+    {
+      "label": "Oracle Cloud Infrastructure 2025 Certified Generative AI Professional",
+      "url": "https://catalog-education.oracle.com/ords/certview/sharebadge?id=D872C7C55253F20FE8F37D6C59D0095801619154369A62E33CF53035C15ADAAB"
+    },
+    {
+      "label": "Oracle Cloud Infrastructure 2023 Certified Foundations Associate",
+      "url": "https://catalog-education.oracle.com/ords/certview/sharebadge?id=B442EBE41F37913D68B17DBE40A1E356E961AF48EAF1303D3F89293744CCEFEB"
+    }
+  ],
+
+  "project_links": {
+    "Smart Classroom for Pedagogical Process and Effective Energy Utilization": {
+      "link": "https://ieeexplore.ieee.org/document/10249745",
+      "linkLabel": "Published Paper"
+    },
+    "Intelligent Load Balancing in SDN": {
+      "link": "https://ieeexplore.ieee.org/abstract/document/9785334",
+      "linkLabel": "Published Paper"
+    },
+    "RefVRAG: Reference aware video RAG": {
+      "link": "https://github.com/yogeeswar2001/RefVRAG",
+      "linkLabel": "GitHub"
+    },
+    "Effective Detection of Drug-Drug & Drug-Target Interactions": {
+      "link": "https://drive.google.com/file/d/1ZqU32YsRv6Wq_Hx4NTOjIaFi8w3U77_w/view?usp=sharing",
+      "linkLabel": "Thesis"
+    },
+    "Web Chat Application": {
+      "link": "https://github.com/yogeeswar2001/chat-application",
+      "linkLabel": "GitHub"
+    },
+    "AI-IoMT-based Smart Inhaler Solution for Asthma and COPD Patients": {
+      "link": "https://drive.google.com/file/d/18wTstlHUnQkaWqPjFPjmarfJup-yKV6B/view?usp=sharing",
+      "linkLabel": "Certificate"
+    }
+  }
+}
