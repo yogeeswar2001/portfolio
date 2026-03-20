@@ -28,26 +28,35 @@ jobs:
         run: |
           python - <<'EOF'
           import os, requests, hashlib, sys
-
+          
           url = os.environ["OVERLEAF_PDF_URL"]
-          r = requests.get(url, timeout=30)
-          r.raise_for_status()
-          new_pdf = r.content
-
-          # Hash check — skip if unchanged
-          hash_file = ".resume_hash"
-          new_hash = hashlib.sha256(new_pdf).hexdigest()
-          if os.path.exists(hash_file):
-              with open(hash_file) as f:
-                  old_hash = f.read().strip()
-              if old_hash == new_hash:
+          # We add a User-Agent header to pretend we are a Chrome browser
+          headers = {
+              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+          }
+          
+          try:
+              r = requests.get(url, headers=headers, timeout=30)
+              r.raise_for_status()
+              new_pdf = r.content
+              
+              # ... rest of your hashing logic ...
+              hash_file = ".resume_hash"
+              new_hash = hashlib.sha256(new_pdf).hexdigest()
+              
+              if os.path.exists(hash_file) and open(hash_file).read().strip() == new_hash:
                   print("PDF unchanged, skipping update.")
                   sys.exit(0)
-
-          with open("resume.pdf", "wb") as f:
-              f.write(new_pdf)
-          with open(hash_file, "w") as f:
-              f.write(new_hash)
+          
+              with open("resume.pdf", "wb") as f:
+                  f.write(new_pdf)
+              with open(hash_file, "w") as f:
+                  f.write(new_hash)
+              print("PDF updated successfully!")
+          
+          except requests.exceptions.HTTPError as e:
+              print(f"Error: {e}")
+              sys.exit(1)
           EOF
 
       - name: Parse PDF → resume.json
