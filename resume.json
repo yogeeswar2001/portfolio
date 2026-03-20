@@ -1,0 +1,141 @@
+{
+  "name": "YOGEESWAR SENGAPALLI",
+  "skills": {
+    "Programming Languages": [
+      "C",
+      "C++",
+      "Java",
+      "Python (Pytorch, Flask, OpenCV, TensorFlow, SQLAlchemy)"
+    ],
+    "Web Technologies": [
+      "HTML",
+      "JS",
+      "AJAX",
+      "CSS",
+      "SASS",
+      "MySQL",
+      "Oracle Database",
+      "Firebase"
+    ],
+    "Technologies & Tools": [
+      "Docker",
+      "Git",
+      "Arduino programming",
+      "Android Studio"
+    ],
+    "Certificate": [
+      "OCI Generative AI Professional",
+      "OCI Foundations Associate"
+    ]
+  },
+  "education": [
+    {
+      "institution": "University of Massachusetts Amherst",
+      "degree": "Masters in Computer Science",
+      "location": "Amherst, Massachusetts",
+      "date": "Sep 2025 - Expected graduation: May 2027",
+      "gpa": "4.00/4.00",
+      "coursework": ""
+    },
+    {
+      "institution": "Anna University, MIT Campus",
+      "degree": "Bachelor of Engineering in Computer Science and Engineering",
+      "location": "India, Tamil Nadu",
+      "date": "Jul 2019 - Jun 2023",
+      "gpa": "9.00/10.00",
+      "coursework": ""
+    }
+  ],
+  "experience": [
+    {
+      "role": "Associate Software Developer",
+      "company": "Oracle",
+      "location": "India, Hyderabad",
+      "date": "Aug 2023 - Present",
+      "bullets": [
+        "Worked as a full stack developer with Python & JS. Designed and developed APIs & revamped a non-performant page, improving its performance by 91% through query optimization and database schema modifications.",
+        "Delivered top customer enhancement requests and received ’Customer Centric Continuous Improvement’ award.",
+        "Expanded AI support capabilities using RAG and LLM, to reduce call center costs by 15%.",
+        "Engineered an AI agent to automate Selenium test case scripting from manual case, accelerating QA workflows."
+      ]
+    },
+    {
+      "role": "Project Intern",
+      "company": "Oracle",
+      "location": "India, Hyderabad",
+      "date": "Jan 2023 - Jun 2023",
+      "bullets": [
+        "Applied Oracle JavaScript Extension Toolkit (OJET) and Agile methodologies to develop front-end features for modern SPAs, improving user interface responsiveness and enhancing customer experience."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "title": "Smart Classroom for Pedagogical Process and Effective Energy Utilization",
+      "technologies": "Python",
+      "description": "Published by IEEE in 12th International Conference on Advanced Computing (ICoAC), 2023 Worked with a team of 4 to enhance teaching environments by implementing IoT-based context-aware sensors for effective energy utilization and a Smart Note Maker system for visually and hearing-impaired students. Achieved an superior accuracy of 95.74% for Tamil character recognition by optimizing architecture of CNN model.",
+      "link": "https://ieeexplore.ieee.org/document/10249745",
+      "linkLabel": "Published Paper"
+    },
+    {
+      "title": "Intelligent Load Balancing in SDN",
+      "technologies": "PYTHON, MININET, POX",
+      "description": "Published by IEEE in 8th International Conference on Advanced Computing and Communication Systems, 2022 Research project to enhance the efficiency of load balancers in Software-Defined Networking (SDN) by developing a hybrid method that combines multiple load balancing algorithms to leverage the strengths of each under specific conditions. Achieved increased throughput for the proposed algorithm than existing techniques. Efficiency of proposed hybrid algorithm was verified by simulating various scenarios using POX controller and Mininet.",
+      "link": "https://ieeexplore.ieee.org/abstract/document/9785334",
+      "linkLabel": "Published Paper"
+    },
+    {
+      "title": "Effective Detection of Drug-Drug & Drug-Target Interactions",
+      "technologies": "Python",
+      "description": "Project intended to increase the efficiency of Drug-Drug & Drug-Target Interactions leveraging Graph Neural Networks The proposed drug-drug interaction checker system, which employs a graph convolutional network and MLP, demonstrated superior performance with an accuracy superior of 97.765%. Achieved an concordance index of 0.891 for drug-target with proposed GAT_GCN model trained on Kiba dataset. Visualized model performance and dataset distributions using Matplotlib",
+      "link": "https://drive.google.com/file/d/1ZqU32YsRv6Wq_Hx4NTOjIaFi8w3U77_w/view?usp=sharing",
+      "linkLabel": "Thesis"
+    },
+    {
+      "title": "RefVRAG: Reference aware video RAG",
+      "technologies": "PyTorch",
+      "description": "Implemented a reference-aware Video-RAG framework combining multimodal extraction, coreference resolution, FAISS- based retrieval, and LLM-based answer generation. Developed an end-to-end reference-aware Video RAG system by integrating ASR, OCR, and DETR outputs into unified multimodal scene descriptions for long-video understanding. Built a coreference resolution module to rewrite ambiguous pronouns into explicit entity mentions, improving grounding and retrieval using FAISS + SentenceTransformer embeddings and achieved significant performance gains, improving BLEU-4 by 42%, ROUGE-L by 30%.",
+      "link": "https://github.com/yogeeswar2001/RefVRAG",
+      "linkLabel": "GitHub"
+    },
+    {
+      "title": "Web Chat Application",
+      "technologies": "PHP, JAVASCRIPT , AJAX, MYSQL, HTML, CSS",
+      "description": "Gained experience in full-stack development by integrating front-end (HTML, JavaScript) and back-end (PHP, MySQL). Implemented a web chat application that allows users to search for users and send text messages, facilitating basic communication features. Designed the application for seamless integration with existing PHP applications, providing a simple solution for enhancing user interaction. Collaborated in a team of three to design and develop a software for data management using Java and file storge. Implemented database management functionalities such as creating databases and tables, inserting records, updating values, and deleting rows using simple queries.",
+      "link": "https://github.com/yogeeswar2001/chat-application",
+      "linkLabel": "GitHub"
+    }
+  ],
+  "patents": [
+    {
+      "title": "AI-IoMT-based Smart Inhaler Solution for Asthma and COPD Patients",
+      "technologies": "Python, Java, C++",
+      "description": "",
+      "link": "https://drive.google.com/file/d/18wTstlHUnQkaWqPjFPjmarfJup-yKV6B/view?usp=sharing",
+      "linkLabel": "Certificate",
+      "number": "202541014966",
+      "filed": "",
+      "bullets": [
+        "Developed an Android application for the Smart Inhaler, integrating with the IoT module attached to the inhaler using Java, facilitating doctor-patient interaction and real-time monitoring of patient medication.",
+        "Implemented features for medication adherence alerts, dose tracking, and an SOS emergency system to enhance patient safety and ensure timely interventions during asthma attacks.",
+        "Trained a machine learning model to analyze patient history, inhaler usage patterns, and environmental data to help doctors in making informed decisions regarding patient treatment."
+      ]
+    }
+  ],
+  "tagline": "MSCS @ UMass Amherst | Ex - Developer @ Oracle | AU-MIT'23",
+  "about": [
+    "I am a Master's in Computer Science student at UMass Amherst. I have professional experience as an Associate Software Developer at Oracle, where I contributed to full-stack development, optimized performance, and contributed to AI solutions to enhance customer experience using Python, JavaScript, and modern web technologies. My core competencies include designing and implementing software solutions, developing and integrating ML models with applications, and optimizing database and application performance.",
+    "My technical expertise spans Python, Java, C++, Flask, TensorFlow, OpenCV, SQLAlchemy, PHP, HTML, JavaScript, OJET, CSS, MySQL, Oracle, Firebase, Docker, Git, and Android development. I am passionate about building reliable, high-impact systems and continuously learning emerging technologies in ML, AI, and backend engineering.",
+    "I am actively looking out for internships, research collaborations, and project opportunities in ML/AI, scalable systems, and full-stack/backend development. Feel free to connect or reach out to discuss potential collaborations."
+  ],
+  "certifications": [
+    {
+      "label": "Oracle Cloud Infrastructure 2025 Certified Generative AI Professional",
+      "url": "https://catalog-education.oracle.com/ords/certview/sharebadge?id=D872C7C55253F20FE8F37D6C59D0095801619154369A62E33CF53035C15ADAAB"
+    },
+    {
+      "label": "Oracle Cloud Infrastructure 2023 Certified Foundations Associate",
+      "url": "https://catalog-education.oracle.com/ords/certview/sharebadge?id=B442EBE41F37913D68B17DBE40A1E356E961AF48EAF1303D3F89293744CCEFEB"
+    }
+  ]
+}
